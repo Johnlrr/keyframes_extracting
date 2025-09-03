@@ -235,7 +235,7 @@ def main():
                         help="video file or directory containing videos")
     parser.add_argument("output_path", 
                         help="directory to save keyframes")
-    parser.add_argument("--shot-threshold", type=float, default=0.35,
+    parser.add_argument("--shot-threshold", type=float, default=0.3,
                         help="threshold for scene detection (default: 0.35)")
     args = parser.parse_args()
 
