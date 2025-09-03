@@ -213,8 +213,8 @@ class TransNetV2Torch:
                 from PIL import Image
                 img = Image.fromarray(frame_array)
                 
-                # Generate filename: <frame_idx>.png
-                filename = f"{frame_idx:06d}.png"
+                # Generate filename: <frame_idx>.jpg
+                filename = f"{frame_idx:06d}.jpg"
                 filepath = os.path.join(output_dir, filename)
                 img.save(filepath, quality=95)
                 
